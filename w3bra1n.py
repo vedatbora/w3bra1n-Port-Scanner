@@ -1,12 +1,11 @@
 from unittest import result
-import pyfiglet
+#import pyfiglet
 import sys
 import socket
 from datetime import datetime
 
-ascii_banner = pyfiglet.figlet_format("w 3 b r a 1 n")
-print(ascii_banner)
-
+#ascii_banner = pyfiglet.figlet_format("w 3 b r a 1 n")
+#print(ascii_banner)
 target = input(str("IP or Domain: "))
 
 print ("-" * 50)
